@@ -1,7 +1,12 @@
-# interiaspamblocker
+# Interia Spam Blocker
 
-# extension hides mails from interia, often containing unwanted spam
+An extension to hide mails from interia, often containing unwanted spam.
 
-# installation
+## Installation
 
-# download folder, unpack and add to extension's chrome page
+1. Download folder with extension 
+2. Unpack
+3. Go to chrome://extensions/
+4. Drag folder over extension list
+
+### Enjoy!
