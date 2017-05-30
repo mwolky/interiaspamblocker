@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Interia Spam Blocker",
+    "description": "Hide spam on poczta.interia.pl",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "Interia Spam Blocker",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://poczta.interia.pl/*"],
+            "css": ["mystyles.css"],
+            "js": ["myscript.js"]
+        }
+    ]
+}
